@@ -1,0 +1,645 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Medical Website HTML</title>
+    
+    <link rel="shortcut icon" href="images/fav-icon.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+</head>
+<body>
+    
+    <section id="hero">
+        <nav class="navigation">
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+            <a href="index.html" class="logo"><span>We</span>Care</a>
+            <ul class="menu">
+                <li><a href="#our-team">Find A Doctor</a></li>
+                <li><a href="#our-services">Our Services</a></li>
+                <li><a href="#testimonials">Testimonial's</a></li>
+            </ul>
+            <a href="book.html" class="nav-appointment-btn">Appointment</a>
+        </nav>
+
+
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Feel Better About Finding HealthCare</h1>
+                <p>Good health is not just a privilege—it's the foundation of everything we do</p>
+                <div class="hero-text-btns">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Find Doctor's</a>
+                    <a href="book.html"><i class="fa-solid fa-check"></i> Book Appointment</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img alt="" src="images/main-bg.png">
+            </div>
+        </div>
+        
+        <div class="appointment-search-container">
+            <h3>Find Best HealthCare</h3>
+            <form class="appointment-search">
+                <div class="appo-search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search Doctor Here or For Advice">
+                </div>
+                <div class="appo-search-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" placeholder="Set Your Location">
+                </div>
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+        
+        <section class="what-we-provide">
+            <div class="w-info-box w-i-box1">
+                <div class="w-info-icon">
+                    <i class="fa-solid fa-capsules"></i>
+                </div>
+                <div class="w-info-text">
+                    <strong>Specialised Service</strong>
+                    <a href="food.html">Get food online</a>
+                </div>
+            </div>
+            <div class="w-info-box w-i-box2">
+                <div class="w-info-icon">
+                    <i class="fa-regular fa-comments"></i>
+                </div>
+                <div class="w-info-text">
+                    <strong>24/7 Advanced Care</strong>
+                    <p>The medical team is always with you</p>
+                </div>
+            </div>
+            <div class="w-info-box w-i-box3">
+                <div class="w-info-icon">
+                    <i class="fa-solid fa-square-poll-horizontal"></i>
+                </div>
+                <div class="w-info-text">
+                    <strong>Get Result Online</strong>
+                    <p>You got the test result online. </p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="our_story">
+            <div class="our-story-img">
+                <img src="images/story_img.jpg" />
+                <a href="kanhu.mp4" class="story-play-btn">
+                    <i class="fa-solid fa-play"></i>
+                    Play Video
+                </a>
+            </div>
+            <div class="our-stroy-text">
+                <h2>Short Story About Our Clinic.</h2>
+                <p>Clinics offer several advantages, including convenient access to specialized care, lower costs compared to hospitals, and shorter wait times. They provide personalized attention, focusing on preventive services, routine checkups, and non-emergency care. Clinics are often located close to home or work, making them easily accessible for individuals seeking timely, affordable healthcare for minor illnesses, chronic conditions, or general wellness.
+
+
+
+                    <a>Read More</a></p>
+                <div class="story-numbers-container">
+                    <div class="story-numbers-box s-n-box1">
+                        <strong>1000+</strong>
+                        <span>Happy Patients</span>
+                    </div>
+                    <div class="story-numbers-box s-n-box2">
+                        <strong>215+</strong>
+                        <span>Expert Doctor</span>
+                    </div>
+                    <div class="story-numbers-box s-n-box3">
+                        <strong>315+</strong>
+                        <span>Hospital Room's</span>
+                    </div>
+                    <div class="story-numbers-box s-n-box4">
+                        <strong>106+</strong>
+                        <span>Award Wining</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
+
+        <section id="our-services">
+
+            <div class="services-heading">
+                <div class="services-heading-text">
+                    <strong>Our Services</strong>
+                    <h2>High Quality Services For You</h2>
+                </div>
+                <div class="service-slide-btns">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        
+            <div class="services-box-container">
+        
+                <div class="swiper mySwiperservices">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="service-box s-box1">
+                                <i class="fa-solid fa-tooth"></i>
+                                <strong>Dental Care</strong>
+                                <p>Dental care involves maintaining good oral hygiene to prevent dental issues such as cavities, gum disease, and bad breath. This includes brushing teeth at least twice a day with fluoride toothpaste, flossing daily, eating a balanced diet, and visiting a dentist regularly for check-ups and cleanings. Proper dental care helps maintain healthy teeth and gums, contributing to overall health and well-being.</p>
+                                <a href="https://www.dentalcare.com/en-us">Read More</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-box s-box2">
+                                <i class="fa-solid fa-eye"></i>
+                                <strong>Eye Care</strong>
+                                <p>Eye care involves taking steps to protect and preserve vision by maintaining good eye health. This includes protecting the eyes from UV rays by wearing sunglasses</p>
+                                <a href="https://www.cdc.gov/vision-health/prevention/taking-care-of-your-eyes.html">Read More</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-box s-box3">
+                                <i class="fa-solid fa-face-smile"></i>
+                                <strong>Skin Care</strong>
+                                <p>Skin care involves cleansing, moisturizing, and protecting the skin from environmental damage, such as UV rays and pollution.</p>
+                                <a href="https://www.aad.org/public/everyday-care/skin-care-basics">Read More</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-box s-box4">
+                                <i class="fa-solid fa-user-doctor"></i>
+                                <strong>Surgical</strong>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem ullam perspiciatis impedit consequuntur</p>
+                                <a href="https://www.baxter.com/healthcare-professionals/surgical-care">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <span class="service-btn">Contact Us For Need Any Help And Services <a href="#">Let's get Started</a></span>
+        
+        </section>
+        
+
+
+    <!--==Why-choose-us=======================-->
+    <section id="why-choose-us">
+
+        <!--**left*****************-->
+        <div class="why-choose-us-left">
+            <h3>Why Choose Us?</h3>
+            <!--==container====-->
+            <div class="why-choose-box-container">
+                <!--**box**-->
+                <div class="why-choose-box">
+                    <!--icon-->
+                    <i class="fa-solid fa-check"></i>
+                    <!--text-->
+                    <div class="why-choose-box-text">
+                        <strong>Advance Care</strong>
+                        <p>Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+                <!--**box**-->
+                <div class="why-choose-box">
+                    <!--icon-->
+                    <i class="fa-solid fa-check"></i>
+                    <!--text-->
+                    <div class="why-choose-box-text">
+                        <strong>Online Medicine</strong>
+                        <p>Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+                <!--**box**-->
+                <div class="why-choose-box">
+                    <!--icon-->
+                    <i class="fa-solid fa-check"></i>
+                    <!--text-->
+                    <div class="why-choose-box-text">
+                        <strong>Medical & Surgical</strong>
+                        <p>Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+                <!--**box**-->
+                <div class="why-choose-box">
+                    <!--icon-->
+                    <i class="fa-solid fa-check"></i>
+                    <!--text-->
+                    <div class="why-choose-box-text">
+                        <strong>Lab Test's</strong>
+                        <p>Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+            </div>
+            <!--==btn========-->
+            <a href="#" class="why-choose-us-btn">Make Appointment</a>
+        </div><!--left-end-->
+
+        <!--**right*******************-->
+        <div class="why-choose-us-right">
+            <h3>Emergency?<br/>
+                Contact Us
+            </h3>
+            <p>An emergency contact is a person you choose to be reached in case something happens to you and you can’t communicate. This person is someone who can help or provide information if there’s an emergency, like an accident or sudden illness. It’s important to keep their contact information updated and share it with family, friends, or anyone who might need it in an emergency.
+
+
+
+                .</p>
+            <!--==container====-->
+            <div class="w-right-contact-container">
+                <!--**box**-->
+                <div class="w-right-contact-box">
+                    <i class="fa-solid fa-phone"></i>
+                    <!--text-->
+                    <div class="w-right-contact-box-text">
+                        <span>Call Us Now</span>
+                        <strong>+91 9692631299</strong>
+                    </div>
+                </div>
+                <!--**box**-->
+                <div class="w-right-contact-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <!--text-->
+                    <div class="w-right-contact-box-text">
+                        <span>Mail Us</span>
+                        <strong>kanhucharanjena@gmail.com</strong>
+                    </div>
+                </div>
+            </div>
+        </div><!--right-end-->
+
+    </section><!--end-->
+
+
+
+    <!--==Team===========================-->
+    <section id="our-team">
+
+        <!--**heading*****************-->
+        <div class="our-team-heading">
+            <h3>Meet Our Specialist</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <!--**team-container***********-->
+        <div class="team-box-container">
+            <!-- Swiper -->
+            <div class="swiper mySwiperteam">
+            <div class="swiper-wrapper">
+                <!--**1***-->
+                <div class="swiper-slide">
+                    <!--**box**-->
+                    <div class="team-box">
+                        <!--img-->
+                        <div class="team-img">
+                            <img alt="" src="images/d1.png">
+                        </div>
+                        <!--text-->
+                        <div class="team-text">
+                            <strong>Dr. Paradox Alex</strong>
+                            <span>Skin Specialist</span>
+                        </div>
+                    </div>
+                </div><!--end-slide-->
+                <!--**1***-->
+                <div class="swiper-slide">
+                    <!--**box**-->
+                    <div class="team-box">
+                        <!--img-->
+                        <div class="team-img">
+                            <img alt="" src="images/d2.png">
+                        </div>
+                        <!--text-->
+                        <div class="team-text">
+                            <strong>Dr. Binod sethy</strong>
+                            <span> Dentol Specialist</span>
+                        </div>
+                    </div>
+                </div><!--end-slide-->
+                <!--**1***-->
+                <div class="swiper-slide">
+                    <!--**box**-->
+                    <div class="team-box">
+                        <!--img-->
+                        <div class="team-img">
+                            <img alt="" src="images/d3.png">
+                        </div>
+                        <!--text-->
+                        <div class="team-text">
+                            <strong>Dr. Aman Gupta</strong>
+                            <span>Heart Specialist</span>
+                        </div>
+                    </div>
+                </div><!--end-slide-->
+                <!--**1***-->
+                <div class="swiper-slide">
+                    <!--**box**-->
+                    <div class="team-box">
+                        <!--img-->
+                        <div class="team-img">
+                            <img alt="" src="images/d4.png">
+                        </div>
+                        <!--text-->
+                        <div class="team-text">
+                            <strong>Dr. Binita cour</strong>
+                            <span>Eye Specialist</span>
+                        </div>
+                    </div>
+                </div><!--end-slide-->
+                <!--**1***-->
+                <div class="swiper-slide">
+                    <!--**box**-->
+                    <div class="team-box">
+                        <!--img-->
+                        <div class="team-img">
+                            <img alt="" src="images/d5.png">
+                        </div>
+                        <!--text-->
+                        <div class="team-text">
+                            <strong>Dr.Madhur Ray</strong>
+                            <span>Sugeon Specialist</span>
+                        </div>
+                    </div>
+                </div><!--end-slide-->
+            </div><!--wrapper-end-->
+            <div class="swiper-pagination"></div>
+            </div><!--swiper-end-->
+
+            
+        
+        </div>
+
+    </section><!--team-end-->
+
+
+
+    <!--==Testimonials============================-->
+    <section id="testimonials">
+
+        <!--**heading****************-->
+        <div class="testimonials-heading">
+            <h3>Our Patients FeedBack About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptates cupiditate, rerum rem odio fugit</p>
+        </div>
+
+
+        <!--**testimonials-Content****-->
+        <div class="testimonials-content">
+
+            <!--**img************-->
+            <div class="testimonials-img">
+                <img alt="" src="images/testimonials-img.png">
+            </div>
+
+            <!-- Testimonials Section -->
+<div class="testimonials-box-container">
+    <!-- Swiper -->
+    <div class="swiper mySwipertesti">
+        <div class="swiper-wrapper">
+
+            <!-- Testimonial 1 -->
+            <div class="swiper-slide">
+                <!-- Box -->
+                <div class="testimonials-box">
+                    <!-- Profile -->
+                    <div class="t-profile">
+                        <!-- Image -->
+                        <div class="t-profile-img">
+                            <img alt="Rajes ku mangual" src="images/t1.jpg">
+                        </div>
+                        <!-- Text -->
+                        <div class="t-profile-text">
+                            <strong>Rajes ku Mangual</strong>
+                            <span>Cuttack</span>
+                            <!-- Rating -->
+                            <div class="t-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feedback -->
+                    <p>I had an excellent experience with the medical service. The staff was friendly and professional, and the doctors took the time to explain everything clearly. The facility was clean and well-equipped. I felt well cared for and confident in my treatment. Highly recommend!
+
+
+
+                    </p>
+                </div><!-- Box End -->
+            </div><!-- Slide End -->
+
+            <!-- Testimonial 2 -->
+            <div class="swiper-slide">
+                <!-- Box -->
+                <div class="testimonials-box">
+                    <!-- Profile -->
+                    <div class="t-profile">
+                        <!-- Image -->
+                        <div class="t-profile-img">
+                            <img alt="Client Name" src="images/t1.jpg">
+                        </div>
+                        <!-- Text -->
+                        <div class="t-profile-text">
+                            <strong>Client Name</strong>
+                            <span>From China</span>
+                            <!-- Rating -->
+                            <div class="t-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feedback -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa est odit dicta sequi labore perferendis ut veritatis expedita, nihil sint! Delectus aut id voluptatibus nemo dolorum, quos consequatur commodi repudiandae?</p>
+                </div><!-- Box End -->
+            </div><!-- Slide End -->
+
+            <!-- Testimonial 3 -->
+            <div class="swiper-slide">
+                <!-- Box -->
+                <div class="testimonials-box">
+                    <!-- Profile -->
+                    <div class="t-profile">
+                        <!-- Image -->
+                        <div class="t-profile-img">
+                            <img alt="Rajesh" src="images/t1.jpg">
+                        </div>
+                        <!-- Text -->
+                        <div class="t-profile-text">
+                            <strong>Rajesh</strong>
+                            <span>From Bhubaneswar</span>
+                            <!-- Rating -->
+                            <div class="t-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feedback -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa est odit dicta sequi labore perferendis ut veritatis expedita, nihil sint! Delectus aut id voluptatibus nemo dolorum, quos consequatur commodi repudiandae?</p>
+                </div><!-- Box End -->
+            </div><!-- Slide End -->
+
+        </div><!-- Swiper Wrapper End -->
+
+        <!-- Swiper Pagination -->
+        <div class="swiper-pagination"></div>
+    </div><!-- Swiper End -->
+</div><!-- Testimonials Box Container End -->
+
+
+    </section><!--testimonials-end-->
+
+
+
+    <!--==Subscribe===========================-->
+    <section id="subscribe">
+        <h3>Subscribe For New Updates From Wecare</h3>
+        <!--subcribe-box-->
+        <form class="subscribe-box">
+            <input type="email" placeholder="Example@gmail.com">
+            <button>Subscribe</button>
+        </form>
+    </section><!--end-->
+
+
+    <footer>
+        <div class="footer-container">
+            <!--**comoany-box**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="#" class="logo"><span>We</span>Care</a>
+                <!--details-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quas neque repudiandae nihil.</p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>External Link's</strong>
+                <ul>
+                    <li><a href="#">Our Product's</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Trem's and Condition's</a></li>
+                </ul>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>External Link's</strong>
+                <ul>
+                    <li><a href="#">Our Product's</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Trem's and Condition's</a></li>
+                </ul>
+            </div>
+            
+   
+        </div>
+
+        <!--**bottom**********************-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By TEAM BROCODE</span>
+            <span class="copyright">&#169;KANHU CHARANJENA .All Rights reserved</span>
+        </div>
+    </footer>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    /*-services--*/
+    var swiper = new Swiper(".mySwiperservices", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          700: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
+      });
+    /*--team--*/
+    var swiper = new Swiper(".mySwiperteam", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          560: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          950: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1250: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+        },
+      });
+    /*--testimonials--*/
+      var swiper = new Swiper(".mySwipertesti", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+</body>
+</html>
